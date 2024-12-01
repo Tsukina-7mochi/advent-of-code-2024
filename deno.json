@@ -1,0 +1,8 @@
+{
+  tasks: {
+    "run": "deno run --allow-run run.ts"
+  },
+  "imports": {
+    "@std/streams": "jsr:@std/streams@^1.0.8"
+  }
+}
