@@ -19,3 +19,5 @@ export async function reduceAsyncIterator<T, U>(
   }
   return result;
 }
+
+export type Vec2<T = number> = { x: T; y: T };
